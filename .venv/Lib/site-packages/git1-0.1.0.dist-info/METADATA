@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: git1
+Version: 0.1.0
+Summary: COMP0035 Week1 demo project
+Author-email: Dong Liu <zceedl0@ucl.ac.uk>
+Requires-Python: >=3.12.6
+Description-Content-Type: text/markdown

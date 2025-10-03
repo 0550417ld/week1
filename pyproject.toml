@@ -1,0 +1,16 @@
+[project]
+name = "git1"                # 项目名字（包名和文件夹名字一致）
+version = "0.1.0"            # 项目版本号
+description = "COMP0035 Week1 demo project"   # 项目简介
+readme = "README.md"         # 项目文档
+requires-python = ">=3.12.6"   # 要求 Python 版本
+authors = [
+    { name="Dong Liu", email="zceedl0@ucl.ac.uk" }
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
